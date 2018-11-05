@@ -1,0 +1,11 @@
+{
+	"blocks": [
+		"gcc-package-1.zip",
+		"gcc-package-2.zip"
+	],
+	
+	"info": {
+		"name": "gcc++4.9"
+		"version": "4.9"
+	}
+}
