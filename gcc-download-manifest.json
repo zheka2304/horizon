@@ -4,8 +4,10 @@
 		"gcc-package-2.zip"
 	],
 	
+	"packages-xml": "gcc-packages.xml",
+	
 	"info": {
-		"name": "gcc++4.9"
+		"name": "gcc++4.9",
 		"version": "4.9"
 	}
 }

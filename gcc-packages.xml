@@ -1,0 +1,1724 @@
+<repo>
+
+
+	<package>
+	<name>gcc</name>
+	<replaces></replaces>
+	<version>4.9-1</version>
+	<arch>armel</arch>
+	<description>The GNU C compiler</description>
+	<depends>cloog gmp isl mpc mpfr libgcc-dev|libgcc-compact-dev libstdc++-dev|libstdc++-compact-dev</depends>
+	<size>54241523</size>
+	<file>gcc_4.9-1_armel.zip</file>
+	<filesize>22528599</filesize>
+    </package>
+
+    <package>
+	<name>adialog</name>
+	<replaces></replaces>
+	<version>1.01</version>
+	<arch>armel</arch>
+	<description>CCTools console dialog utility</description>
+	<depends></depends>
+	<size>70884</size>
+	<file>adialog_1.01_armel.zip</file>
+	<filesize>4124</filesize>
+    </package>
+    <package>
+	<name>apr</name>
+	<replaces></replaces>
+	<version>1.5.2</version>
+	<arch>armel</arch>
+	<description>The mission of the Apache Portable Runtime (APR) project is to create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations.</description>
+	<depends></depends>
+	<size>321688</size>
+	<file>apr_1.5.2_armel.zip</file>
+	<filesize>87389</filesize>
+    </package>
+    <package>
+	<name>apr-dev</name>
+	<replaces></replaces>
+	<version>1.5.2</version>
+	<arch>armel</arch>
+	<description>The mission of the Apache Portable Runtime (APR) project is to create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations. (development files)</description>
+	<depends>apr</depends>
+	<size>1486404</size>
+	<file>apr-dev_1.5.2_armel.zip</file>
+	<filesize>493450</filesize>
+    </package>
+    <package>
+	<name>apr-util</name>
+	<replaces></replaces>
+	<version>1.5.4</version>
+	<arch>armel</arch>
+	<description>The mission of the Apache Portable Runtime (APR) project is to create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations.</description>
+	<depends></depends>
+	<size>11947</size>
+	<file>apr-util_1.5.4_armel.zip</file>
+	<filesize>5093</filesize>
+    </package>
+    <package>
+	<name>apr-util-dev</name>
+	<replaces></replaces>
+	<version>1.5.4</version>
+	<arch>armel</arch>
+	<description>The mission of the Apache Portable Runtime (APR) project is to create and maintain software libraries that provide a predictable and consistent interface to underlying platform-specific implementations. (development files)</description>
+	<depends>apr-util</depends>
+	<size>1010265</size>
+	<file>apr-util-dev_1.5.4_armel.zip</file>
+	<filesize>356200</filesize>
+    </package>
+    <package>
+	<name>binutils</name>
+	<replaces>binutils-compact</replaces>
+	<version>2.25</version>
+	<arch>armel</arch>
+	<description>GNU assembler, linker and binary utilities</description>
+	<depends></depends>
+	<size>10817806</size>
+	<file>binutils_2.25_armel.zip</file>
+	<filesize>3014965</filesize>
+    </package>
+    <package>
+	<name>binutils-compact</name>
+	<replaces>binutils</replaces>
+	<version>2.25</version>
+	<arch>armel</arch>
+	<description>GNU assembler and linker only, compact version</description>
+	<depends></depends>
+	<size>7578227</size>
+	<file>binutils-compact_2.25_armel.zip</file>
+	<filesize>1849811</filesize>
+    </package>
+    <package>
+	<name>build-essential-fortran</name>
+	<replaces>build-essential-fortran-compact</replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>Informational list of fortran build-essential packages</description>
+	<depends>busybox project-ctl binutils libgcc-dev libstdc++-dev libgfortran-dev gfortran make ndk-misc ndk-sysroot-${HOSTNDKARCH}-${HOSTNDKVERSION} cctools-examples gfortran-examples</depends>
+	<size></size>
+	<file>build-essential-fortran_1.1_all.zip</file>
+	<filesize>603</filesize>
+    </package>
+    <package>
+	<name>build-essential-fortran-compact</name>
+	<replaces>build-essential-fortran</replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>Informational list of fortran compact build-essential packages</description>
+	<depends>busybox project-ctl binutils-compact libgcc-compact-dev libstdc++-compact-dev libgfortran-compact-dev gfortran make ndk-misc ndk-sysroot-${HOSTNDKARCH}-${HOSTNDKVERSION} cctools-examples gfortran-examples</depends>
+	<size></size>
+	<file>build-essential-fortran-compact_1.1_all.zip</file>
+	<filesize>612</filesize>
+    </package>
+    <package>
+	<name>build-essential-gcc</name>
+	<replaces>build-essential-gcc-compact</replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>Informational list of gcc build-essential packages</description>
+	<depends>busybox project-ctl binutils libgcc-dev libstdc++-dev gcc make ndk-misc ndk-sysroot-${HOSTNDKARCH}-${HOSTNDKVERSION} cctools-examples</depends>
+	<size></size>
+	<file>build-essential-gcc_1.1_all.zip</file>
+	<filesize>590</filesize>
+    </package>
+    <package>
+	<name>build-essential-gcc-avr</name>
+	<replaces></replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>Informational list of avr gcc build-essential packages</description>
+	<depends>busybox project-ctl binutils-avr gcc-avr avr-libc make</depends>
+	<size></size>
+	<file>build-essential-gcc-avr_1.1_all.zip</file>
+	<filesize>528</filesize>
+    </package>
+    <package>
+	<name>build-essential-gcc-compact</name>
+	<replaces>build-essential-gcc</replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>Informational list of gcc compact build-essential packages</description>
+	<depends>busybox project-ctl binutils-compact libgcc-compact-dev libstdc++-compact-dev gcc make ndk-misc ndk-sysroot-${HOSTNDKARCH}-${HOSTNDKVERSION} cctools-examples</depends>
+	<size></size>
+	<file>build-essential-gcc-compact_1.1_all.zip</file>
+	<filesize>597</filesize>
+    </package>
+    <package>
+	<name>build-essential-gcc-objc</name>
+	<replaces>build-essential-gcc-objc-compact</replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>Informational list of gcc objc build-essential packages</description>
+	<depends>busybox project-ctl binutils libgcc-dev libstdc++-dev libobjc-dev gobjc make ndk-misc ndk-sysroot-${HOSTNDKARCH}-${HOSTNDKVERSION} cctools-examples gobjc-examples</depends>
+	<size></size>
+	<file>build-essential-gcc-objc_1.1_all.zip</file>
+	<filesize>605</filesize>
+    </package>
+    <package>
+	<name>build-essential-gcc-objc-compact</name>
+	<replaces>build-essential-gcc-objc</replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>Informational list of objc compact build-essential packages</description>
+	<depends>busybox project-ctl binutils-compact libgcc-compact-dev libstdc++-compact-dev libobjc-compact-dev gobjc make ndk-misc ndk-sysroot-${HOSTNDKARCH}-${HOSTNDKVERSION} cctools-examples gobjc-examples</depends>
+	<size></size>
+	<file>build-essential-gcc-objc-compact_1.1_all.zip</file>
+	<filesize>612</filesize>
+    </package>
+    <package>
+	<name>build-essential-gcc-objc-fortran</name>
+	<replaces>build-essential-gcc-objc-fortran-compact</replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>Informational list of gcc,objc,fortran build-essential packages</description>
+	<depends>busybox project-ctl binutils libgcc-dev libstdc++-dev libobjc-dev libgfortran-dev gobjc gfortran make ndk-misc ndk-sysroot-${HOSTNDKARCH}-${HOSTNDKVERSION} cctools-examples gfortran-examples</depends>
+	<size></size>
+	<file>build-essential-gcc-objc-fortran_1.1_all.zip</file>
+	<filesize>621</filesize>
+    </package>
+    <package>
+	<name>build-essential-gcc-objc-fortran-compact</name>
+	<replaces>build-essential-gcc-objc-fortran</replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>Informational list of gcc,objc,fortran compact build-essential packages</description>
+	<depends>busybox project-ctl binutils-compact libgcc-compact-dev libstdc++-compact-dev libgfortran-compact-dev libobjc-compact-dev gobjc gfortran make ndk-misc ndk-sysroot-${HOSTNDKARCH}-${HOSTNDKVERSION} cctools-examples gfortran-examples</depends>
+	<size></size>
+	<file>build-essential-gcc-objc-fortran-compact_1.1_all.zip</file>
+	<filesize>631</filesize>
+    </package>
+    <package>
+	<name>build-essential-java</name>
+	<replaces></replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>Informational list of java build-essential packages</description>
+	<depends>project-ctl adialog busybox sdktools sdk-android-19 java-examples</depends>
+	<size></size>
+	<file>build-essential-java_1.1_all.zip</file>
+	<filesize>533</filesize>
+    </package>
+    <package>
+	<name>build-essential-luajit</name>
+	<replaces></replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>Informational list of Lua JIT build-essential packages</description>
+	<depends>busybox project-ctl LuaJIT</depends>
+	<size></size>
+	<file>build-essential-luajit_1.1_all.zip</file>
+	<filesize>517</filesize>
+    </package>
+    <package>
+	<name>build-helper</name>
+	<replaces></replaces>
+	<version>1.00</version>
+	<arch>armel</arch>
+	<description>CCTools helpers utilities and modules</description>
+	<depends></depends>
+	<size>6920</size>
+	<file>build-helper_1.00_armel.zip</file>
+	<filesize>4278</filesize>
+    </package>
+    <package>
+	<name>busybox</name>
+	<replaces></replaces>
+	<version>1.25.0-1</version>
+	<arch>armel</arch>
+	<description>BusyBox provides several stripped-down Unix tools in a single executable.</description>
+	<depends></depends>
+	<size>861460</size>
+	<file>busybox_1.25.0-1_armel.zip</file>
+	<filesize>546253</filesize>
+    </package>
+    <package>
+	<name>ca-certificates</name>
+	<replaces></replaces>
+	<version>1.0</version>
+	<arch>armel</arch>
+	<description>Common CA certificates</description>
+	<depends></depends>
+	<size>233394</size>
+	<file>ca-certificates_1.0_armel.zip</file>
+	<filesize>135006</filesize>
+    </package>
+    <package>
+	<name>cctools-examples</name>
+	<replaces></replaces>
+	<version>1.0</version>
+	<arch>all</arch>
+	<description>Few C, C++ and shell examples</description>
+	<depends></depends>
+	<size>26666</size>
+	<file>cctools-examples_1.0_all.zip</file>
+	<filesize>12761</filesize>
+    </package>
+    <package>
+	<name>cloog</name>
+	<replaces></replaces>
+	<version>0.18.0</version>
+	<arch>armel</arch>
+	<description>The CLooG Code Generator in the Polyhedral Model's Home</description>
+	<depends>gmp isl</depends>
+	<size>136312</size>
+	<file>cloog_0.18.0_armel.zip</file>
+	<filesize>60059</filesize>
+    </package>
+    <package>
+	<name>cloog-dev</name>
+	<replaces></replaces>
+	<version>0.18.0</version>
+	<arch>armel</arch>
+	<description>The CLooG Code Generator in the Polyhedral Model's Home (development files)</description>
+	<depends>cloog</depends>
+	<size>81220</size>
+	<file>cloog-dev_0.18.0_armel.zip</file>
+	<filesize>28140</filesize>
+    </package>
+    <package>
+	<name>cppcheck</name>
+	<replaces></replaces>
+	<version>1.64</version>
+	<arch>armel</arch>
+	<description>Static analysis of C/C++ code. Checks for: memory leaks, mismatching allocation-deallocation, buffer overrun, and many more.</description>
+	<depends>libpcre libstdc++-compact-dev</depends>
+	<size>2440353</size>
+	<file>cppcheck_1.64_armel.zip</file>
+	<filesize>857297</filesize>
+    </package>
+    <package>
+	<name>cppcheck-module</name>
+	<replaces></replaces>
+	<version>1.0</version>
+	<arch>armel</arch>
+	<description>Add cppcheck modules to CCTools.</description>
+	<depends>cppcheck</depends>
+	<size>1649</size>
+	<file>cppcheck-module_1.0_armel.zip</file>
+	<filesize>1499</filesize>
+    </package>
+    <package>
+	<name>curl</name>
+	<replaces></replaces>
+	<version>7.28.1</version>
+	<arch>armel</arch>
+	<description>cURL is a computer software project providing a library and command-line tool for transferring data using various protocols.</description>
+	<depends></depends>
+	<size>2566559</size>
+	<file>curl_7.28.1_armel.zip</file>
+	<filesize>1168233</filesize>
+    </package>
+    <package>
+	<name>dropbear</name>
+	<replaces></replaces>
+	<version>2016.74</version>
+	<arch>armel</arch>
+	<description>Small SSH client and server.</description>
+	<depends></depends>
+	<size>1013665</size>
+	<file>dropbear_2016.74_armel.zip</file>
+	<filesize>390660</filesize>
+    </package>
+    <package>
+	<name>dropbear-man</name>
+	<replaces></replaces>
+	<version>2016.74</version>
+	<arch>armel</arch>
+	<description>Small SSH client and server. (manual files)</description>
+	<depends>dropbear</depends>
+	<size>14963</size>
+	<file>dropbear-man_2016.74_armel.zip</file>
+	<filesize>8605</filesize>
+    </package>
+    <package>
+	<name>expat</name>
+	<replaces></replaces>
+	<version>2.2.0</version>
+	<arch>armel</arch>
+	<description>Expat XML Parser</description>
+	<depends></depends>
+	<size>206208</size>
+	<file>expat_2.2.0_armel.zip</file>
+	<filesize>60225</filesize>
+    </package>
+    <package>
+	<name>expat-dev</name>
+	<replaces></replaces>
+	<version>2.2.0</version>
+	<arch>armel</arch>
+	<description>Expat XML Parser (development files)</description>
+	<depends>expat</depends>
+	<size>583503</size>
+	<file>expat-dev_2.2.0_armel.zip</file>
+	<filesize>208350</filesize>
+    </package>
+    <package>
+	<name>expat-man</name>
+	<replaces></replaces>
+	<version>2.2.0</version>
+	<arch>armel</arch>
+	<description>Expat XML Parser (manual files)</description>
+	<depends>expat</depends>
+	<size>8100</size>
+	<file>expat-man_2.2.0_armel.zip</file>
+	<filesize>4576</filesize>
+    </package>
+    <package>
+	<name>fastjar</name>
+	<replaces></replaces>
+	<version>0.98</version>
+	<arch>armel</arch>
+	<description>Fastjar is an implementation of Sun's jar utility that comes with the JDK, written entirely in C, and runs in a fraction of the time while being 100% feature compatible.</description>
+	<depends></depends>
+	<size>224533</size>
+	<file>fastjar_0.98_armel.zip</file>
+	<filesize>78471</filesize>
+    </package>
+    <package>
+	<name>file</name>
+	<replaces></replaces>
+	<version>5.15</version>
+	<arch>armel</arch>
+	<description>Determines file type using magic numbers</description>
+	<depends></depends>
+	<size>3042856</size>
+	<file>file_5.15_armel.zip</file>
+	<filesize>274562</filesize>
+    </package>
+    <package>
+	<name>fontconfig</name>
+	<replaces></replaces>
+	<version>2.11.1</version>
+	<arch>armel</arch>
+	<description>generic font configuration library</description>
+	<depends>freetype libpng</depends>
+	<size>980371</size>
+	<file>fontconfig_2.11.1_armel.zip</file>
+	<filesize>215417</filesize>
+    </package>
+    <package>
+	<name>fontconfig-dev</name>
+	<replaces></replaces>
+	<version>2.11.1</version>
+	<arch>armel</arch>
+	<description>generic font configuration library (development files)</description>
+	<depends>fontconfig</depends>
+	<size>32893</size>
+	<file>fontconfig-dev_2.11.1_armel.zip</file>
+	<filesize>11764</filesize>
+    </package>
+    <package>
+	<name>freetype</name>
+	<replaces></replaces>
+	<version>2.5.4</version>
+	<arch>armel</arch>
+	<description>FreeType 2 font engine</description>
+	<depends>libpng</depends>
+	<size>545934</size>
+	<file>freetype_2.5.4_armel.zip</file>
+	<filesize>277034</filesize>
+    </package>
+    <package>
+	<name>freetype-dev</name>
+	<replaces></replaces>
+	<version>2.5.4</version>
+	<arch>armel</arch>
+	<description>FreeType 2 font engine (development files)</description>
+	<depends>freetype</depends>
+	<size>4722875</size>
+	<file>freetype-dev_2.5.4_armel.zip</file>
+	<filesize>1672383</filesize>
+    </package>
+    <package>
+	<name>freetype-man</name>
+	<replaces></replaces>
+	<version>2.5.4</version>
+	<arch>armel</arch>
+	<description>FreeType 2 font engine (manual files)</description>
+	<depends>freetype</depends>
+	<size>2333</size>
+	<file>freetype-man_2.5.4_armel.zip</file>
+	<filesize>2166</filesize>
+    </package>
+    
+    <package>
+	<name>gfortran</name>
+	<replaces></replaces>
+	<version>4.9-1</version>
+	<arch>armel</arch>
+	<description>GNU Fortran compiler</description>
+	<depends>cloog gmp isl mpc mpfr gcc libgfortran-dev|libgfortran-compact-dev</depends>
+	<size>15567084</size>
+	<file>gfortran_4.9-1_armel.zip</file>
+	<filesize>6915130</filesize>
+    </package>
+    <package>
+	<name>gfortran-examples</name>
+	<replaces></replaces>
+	<version>1.0</version>
+	<arch>armel</arch>
+	<description>Few fortran examples</description>
+	<depends></depends>
+	<size>2054</size>
+	<file>gfortran-examples_1.0_armel.zip</file>
+	<filesize>3865</filesize>
+    </package>
+    <package>
+	<name>git</name>
+	<replaces></replaces>
+	<version>2.10.0-1</version>
+	<arch>armel</arch>
+	<description>Git is a distributed revision control and source code management (SCM) system with an emphasis on speed.[3] Git was initially designed and developed by Linus Torvalds for Linux kernel development; it has since been adopted by many other projects.</description>
+	<depends>ca-certificates</depends>
+	<size>23709121</size>
+	<file>git_2.10.0-1_armel.zip</file>
+	<filesize>11666150</filesize>
+    </package>
+    <package>
+	<name>glib</name>
+	<replaces></replaces>
+	<version>2.24.2</version>
+	<arch>armel</arch>
+	<description>GLib library of C routines</description>
+	<depends>libiconv</depends>
+	<size>2401366</size>
+	<file>glib_2.24.2_armel.zip</file>
+	<filesize>816802</filesize>
+    </package>
+    <package>
+	<name>glib-dev</name>
+	<replaces></replaces>
+	<version>2.24.2</version>
+	<arch>armel</arch>
+	<description>GLib library of C routines (development files)</description>
+	<depends>glib</depends>
+	<size>1140266</size>
+	<file>glib-dev_2.24.2_armel.zip</file>
+	<filesize>349317</filesize>
+    </package>
+    <package>
+	<name>glib-doc</name>
+	<replaces></replaces>
+	<version>2.24.2</version>
+	<arch>armel</arch>
+	<description>GLib library of C routines (doc files)</description>
+	<depends>glib</depends>
+	<size>13118141</size>
+	<file>glib-doc_2.24.2_armel.zip</file>
+	<filesize>1605043</filesize>
+    </package>
+    <package>
+	<name>glib-man</name>
+	<replaces></replaces>
+	<version>2.24.2</version>
+	<arch>armel</arch>
+	<description>GLib library of C routines (manual files)</description>
+	<depends>glib</depends>
+	<size>19164</size>
+	<file>glib-man_2.24.2_armel.zip</file>
+	<filesize>9353</filesize>
+    </package>
+    <package>
+	<name>gmp</name>
+	<replaces></replaces>
+	<version>5.0.5</version>
+	<arch>armel</arch>
+	<description>The GNU Multiple Precision Arithmetic Library</description>
+	<depends>libstdc++-compact-dev</depends>
+	<size>494212</size>
+	<file>gmp_5.0.5_armel.zip</file>
+	<filesize>205679</filesize>
+    </package>
+    <package>
+	<name>gmp-dev</name>
+	<replaces></replaces>
+	<version>5.0.5</version>
+	<arch>armel</arch>
+	<description>The GNU Multiple Precision Arithmetic Library (development files)</description>
+	<depends>gmp</depends>
+	<size>202757</size>
+	<file>gmp-dev_5.0.5_armel.zip</file>
+	<filesize>31696</filesize>
+    </package>
+    <package>
+	<name>gmp-info</name>
+	<replaces></replaces>
+	<version>5.0.5</version>
+	<arch>armel</arch>
+	<description>The GNU Multiple Precision Arithmetic Library (info files)</description>
+	<depends>gmp</depends>
+	<size>502754</size>
+	<file>gmp-info_5.0.5_armel.zip</file>
+	<filesize>134579</filesize>
+    </package>
+    <package>
+	<name>gobjc</name>
+	<replaces></replaces>
+	<version>4.9-1</version>
+	<arch>armel</arch>
+	<description>GNU Objective-C and Objective-C++ compilers</description>
+	<depends>cloog gmp isl mpc mpfr gcc libobjc-dev|libobjc-compact-dev</depends>
+	<size>29383960</size>
+	<file>gobjc_4.9-1_armel.zip</file>
+	<filesize>13099573</filesize>
+    </package>
+    <package>
+	<name>gobjc-examples</name>
+	<replaces></replaces>
+	<version>1.0</version>
+	<arch>armel</arch>
+	<description>GNU Obj-C examples</description>
+	<depends></depends>
+	<size>594</size>
+	<file>gobjc-examples_1.0_armel.zip</file>
+	<filesize>1615</filesize>
+    </package>
+    <package>
+	<name>htop</name>
+	<replaces></replaces>
+	<version>1.0.2</version>
+	<arch>armel</arch>
+	<description>htop is an interactive text-mode process viewer for Linux. It aims to be a better top.</description>
+	<depends></depends>
+	<size>340444</size>
+	<file>htop_1.0.2_armel.zip</file>
+	<filesize>133539</filesize>
+    </package>
+    <package>
+	<name>isl</name>
+	<replaces></replaces>
+	<version>0.11.1</version>
+	<arch>armel</arch>
+	<description>Integer Set Library</description>
+	<depends>gmp</depends>
+	<size>925016</size>
+	<file>isl_0.11.1_armel.zip</file>
+	<filesize>403158</filesize>
+    </package>
+    <package>
+	<name>isl-dev</name>
+	<replaces></replaces>
+	<version>0.11.1</version>
+	<arch>armel</arch>
+	<description>Integer Set Library (development files)</description>
+	<depends>isl</depends>
+	<size>208737</size>
+	<file>isl-dev_0.11.1_armel.zip</file>
+	<filesize>45802</filesize>
+    </package>
+    <package>
+	<name>java-examples</name>
+	<replaces></replaces>
+	<version>1.0</version>
+	<arch>armel</arch>
+	<description>Java examples</description>
+	<depends></depends>
+	<size>628266</size>
+	<file>java-examples_1.0_armel.zip</file>
+	<filesize>513838</filesize>
+    </package>
+    <package>
+	<name>kernel-dev</name>
+	<replaces></replaces>
+	<version>1.0</version>
+	<arch>armel</arch>
+	<description>Install packages for native kernel compilation</description>
+	<depends>build-essential-gcc ncurses perl kernel-dev-fix</depends>
+	<size></size>
+	<file>kernel-dev_1.0_armel.zip</file>
+	<filesize>513</filesize>
+    </package>
+    <package>
+	<name>kernel-dev-fix</name>
+	<replaces></replaces>
+	<version>1.0</version>
+	<arch>armel</arch>
+	<description>Fix native kernel compilation with bionic toolchain</description>
+	<depends>ndk-sysroot-${HOSTNDKARCH}-${HOSTNDKVERSION}</depends>
+	<size>150402</size>
+	<file>kernel-dev-fix_1.0_armel.zip</file>
+	<filesize>34992</filesize>
+    </package>
+    <package>
+	<name>libandroid-shmem</name>
+	<replaces></replaces>
+	<version>0.1</version>
+	<arch>armel</arch>
+	<description>System V shared memory emulation on Android, using ashmem</description>
+	<depends></depends>
+	<size>70724</size>
+	<file>libandroid-shmem_0.1_armel.zip</file>
+	<filesize>6807</filesize>
+    </package>
+    <package>
+	<name>libandroid-shmem-dev</name>
+	<replaces></replaces>
+	<version>0.1</version>
+	<arch>armel</arch>
+	<description>System V shared memory emulation on Android, using ashmem (development files)</description>
+	<depends>libandroid-shmem</depends>
+	<size>21280</size>
+	<file>libandroid-shmem-dev_0.1_armel.zip</file>
+	<filesize>9494</filesize>
+    </package>
+    <package>
+	<name>libgcc-compact-dev</name>
+	<replaces>libgcc-dev</replaces>
+	<version>4.9-1</version>
+	<arch>armel</arch>
+	<description>GCC support library, compact version (development files)</description>
+	<depends></depends>
+	<size>7208673</size>
+	<file>libgcc-compact-dev_4.9-1_armel.zip</file>
+	<filesize>770362</filesize>
+    </package>
+    <package>
+	<name>libgcc-dev</name>
+	<replaces>libgcc-compact-dev</replaces>
+	<version>4.9-1</version>
+	<arch>armel</arch>
+	<description>GCC support library (development files)</description>
+	<depends></depends>
+	<size>42969000</size>
+	<file>libgcc-dev_4.9-1_armel.zip</file>
+	<filesize>4508661</filesize>
+    </package>
+    <package>
+	<name>libgcc-dev-armel</name>
+	<replaces></replaces>
+	<version>4.9-1</version>
+	<arch>all</arch>
+	<description>GCC support library (development files)</description>
+	<depends></depends>
+	<size>42969000</size>
+	<file>libgcc-dev-armel_4.9-1_all.zip</file>
+	<filesize>4508657</filesize>
+    </package>
+    <package>
+	<name>libgfortran-compact-dev</name>
+	<replaces>libgfortran-dev</replaces>
+	<version>4.9-1</version>
+	<arch>armel</arch>
+	<description>Runtime library for GNU Fortran applications, compact version (development files)</description>
+	<depends></depends>
+	<size>5710024</size>
+	<file>libgfortran-compact-dev_4.9-1_armel.zip</file>
+	<filesize>1323838</filesize>
+    </package>
+    <package>
+	<name>libgfortran-dev</name>
+	<replaces>libgfortran-compact-dev</replaces>
+	<version>4.9-1</version>
+	<arch>armel</arch>
+	<description>Runtime library for GNU Fortran applications (development files)</description>
+	<depends></depends>
+	<size>33934076</size>
+	<file>libgfortran-dev_4.9-1_armel.zip</file>
+	<filesize>7793249</filesize>
+    </package>
+    <package>
+	<name>libgfortran-dev-armel</name>
+	<replaces></replaces>
+	<version>4.9-1</version>
+	<arch>all</arch>
+	<description>Runtime library for GNU Fortran applications (development files)</description>
+	<depends></depends>
+	<size>33934076</size>
+	<file>libgfortran-dev-armel_4.9-1_all.zip</file>
+	<filesize>7793246</filesize>
+    </package>
+    <package>
+	<name>libiconv</name>
+	<replaces></replaces>
+	<version>1.14</version>
+	<arch>armel</arch>
+	<description>This library provides an iconv() implementation, for use on systems which don't have one, or whose implementation cannot convert from/to Unicode.</description>
+	<depends></depends>
+	<size>1064716</size>
+	<file>libiconv_1.14_armel.zip</file>
+	<filesize>691195</filesize>
+    </package>
+    <package>
+	<name>libiconv-dev</name>
+	<replaces></replaces>
+	<version>1.14</version>
+	<arch>armel</arch>
+	<description>This library provides an iconv() implementation, for use on systems which don't have one, or whose implementation cannot convert from/to Unicode. (development files)</description>
+	<depends>libiconv</depends>
+	<size>31495</size>
+	<file>libiconv-dev_1.14_armel.zip</file>
+	<filesize>14174</filesize>
+    </package>
+    <package>
+	<name>libiconv-doc</name>
+	<replaces></replaces>
+	<version>1.14</version>
+	<arch>armel</arch>
+	<description>This library provides an iconv() implementation, for use on systems which don't have one, or whose implementation cannot convert from/to Unicode. (doc files)</description>
+	<depends>libiconv</depends>
+	<size>34584</size>
+	<file>libiconv-doc_1.14_armel.zip</file>
+	<filesize>12073</filesize>
+    </package>
+    <package>
+	<name>libiconv-man</name>
+	<replaces></replaces>
+	<version>1.14</version>
+	<arch>armel</arch>
+	<description>This library provides an iconv() implementation, for use on systems which don't have one, or whose implementation cannot convert from/to Unicode. (manual files)</description>
+	<depends>libiconv</depends>
+	<size>18375</size>
+	<file>libiconv-man_1.14_armel.zip</file>
+	<filesize>10301</filesize>
+    </package>
+    <package>
+	<name>libobjc-compact-dev</name>
+	<replaces>libobjc-dev</replaces>
+	<version>4.9-1</version>
+	<arch>armel</arch>
+	<description>Runtime library for GNU Objective-C applications, compact version (development files)</description>
+	<depends></depends>
+	<size>1362489</size>
+	<file>libobjc-compact-dev_4.9-1_armel.zip</file>
+	<filesize>500133</filesize>
+    </package>
+    <package>
+	<name>libobjc-dev</name>
+	<replaces>libobjc-compact-dev</replaces>
+	<version>4.9-1</version>
+	<arch>armel</arch>
+	<description>Runtime library for GNU Objective-C applications (development files)</description>
+	<depends></depends>
+	<size>7656369</size>
+	<file>libobjc-dev_4.9-1_armel.zip</file>
+	<filesize>2818978</filesize>
+    </package>
+    <package>
+	<name>libobjc-dev-armel</name>
+	<replaces></replaces>
+	<version>4.9-1</version>
+	<arch>all</arch>
+	<description>Runtime library for GNU Objective-C applications (development files)</description>
+	<depends></depends>
+	<size>7656369</size>
+	<file>libobjc-dev-armel_4.9-1_all.zip</file>
+	<filesize>2818977</filesize>
+    </package>
+    <package>
+	<name>libpcre</name>
+	<replaces></replaces>
+	<version>8.35</version>
+	<arch>armel</arch>
+	<description>Perl 5 Compatible Regular Expression Library - runtime files</description>
+	<depends></depends>
+	<size>267400</size>
+	<file>libpcre_8.35_armel.zip</file>
+	<filesize>91241</filesize>
+    </package>
+    <package>
+	<name>libpcrecpp</name>
+	<replaces></replaces>
+	<version>8.35</version>
+	<arch>armel</arch>
+	<description>C++ wrapper class for pcre (runtime)</description>
+	<depends>libpcre libstdc++-compact-dev</depends>
+	<size>70824</size>
+	<file>libpcrecpp_8.35_armel.zip</file>
+	<filesize>12732</filesize>
+    </package>
+    <package>
+	<name>libpcrecpp-dev</name>
+	<replaces></replaces>
+	<version>8.35</version>
+	<arch>armel</arch>
+	<description>C++ wrapper class for pcre (development)</description>
+	<depends></depends>
+	<size>70814</size>
+	<file>libpcrecpp-dev_8.35_armel.zip</file>
+	<filesize>24243</filesize>
+    </package>
+    <package>
+	<name>libpcre-dev</name>
+	<replaces></replaces>
+	<version>8.35</version>
+	<arch>armel</arch>
+	<description>Perl 5 Compatible Regular Expression Library - development files</description>
+	<depends></depends>
+	<size>759517</size>
+	<file>libpcre-dev_8.35_armel.zip</file>
+	<filesize>280426</filesize>
+    </package>
+    <package>
+	<name>libpcreposix</name>
+	<replaces></replaces>
+	<version>8.35</version>
+	<arch>armel</arch>
+	<description>POSIX wrapper class for pcre (runtime)</description>
+	<depends>libpcre</depends>
+	<size>5240</size>
+	<file>libpcreposix_8.35_armel.zip</file>
+	<filesize>3711</filesize>
+    </package>
+    <package>
+	<name>libpcreposix-dev</name>
+	<replaces></replaces>
+	<version>8.35</version>
+	<arch>armel</arch>
+	<description>POSIX wrapper class for pcre (development)</description>
+	<depends></depends>
+	<size>22808</size>
+	<file>libpcreposix-dev_8.35_armel.zip</file>
+	<filesize>10605</filesize>
+    </package>
+    <package>
+	<name>libpng</name>
+	<replaces></replaces>
+	<version>1.6.8</version>
+	<arch>armel</arch>
+	<description>Reference library for supporting the Portable Network Graphics (PNG) format.</description>
+	<depends></depends>
+	<size>201956</size>
+	<file>libpng_1.6.8_armel.zip</file>
+	<filesize>96314</filesize>
+    </package>
+    <package>
+	<name>libpng-dev</name>
+	<replaces></replaces>
+	<version>1.6.8</version>
+	<arch>armel</arch>
+	<description>Reference library for supporting the Portable Network Graphics (PNG) format (development files).</description>
+	<depends>libpng </depends>
+	<size>1164832</size>
+	<file>libpng-dev_1.6.8_armel.zip</file>
+	<filesize>473737</filesize>
+    </package>
+    <package>
+	<name>libstdc++-compact-dev</name>
+	<replaces>libstdc++-dev</replaces>
+	<version>4.9-1</version>
+	<arch>armel</arch>
+	<description>GNU Standard C++ Library v3, compact version (development files)</description>
+	<depends></depends>
+	<size>25668733</size>
+	<file>libstdc++-compact-dev_4.9-1_armel.zip</file>
+	<filesize>7161365</filesize>
+    </package>
+    <package>
+	<name>libstdc++-dev</name>
+	<replaces>libstdc++-compact-dev</replaces>
+	<version>4.9-1</version>
+	<arch>armel</arch>
+	<description>GNU Standard C++ Library v3 (development files)</description>
+	<depends></depends>
+	<size>30238125</size>
+	<file>libstdc++-dev_4.9-1_armel.zip</file>
+	<filesize>8547629</filesize>
+    </package>
+    <package>
+	<name>libstdc++-dev-armel</name>
+	<replaces></replaces>
+	<version>4.9-1</version>
+	<arch>all</arch>
+	<description>GNU Standard C++ Library v3 (development files)</description>
+	<depends></depends>
+	<size>30238125</size>
+	<file>libstdc++-dev-armel_4.9-1_all.zip</file>
+	<filesize>8547624</filesize>
+    </package>
+    <package>
+	<name>libuuid</name>
+	<replaces></replaces>
+	<version>1.0.3</version>
+	<arch>armel</arch>
+	<description>Portable uuid C library</description>
+	<depends></depends>
+	<size>70828</size>
+	<file>libuuid_1.0.3_armel.zip</file>
+	<filesize>10697</filesize>
+    </package>
+    <package>
+	<name>libuuid-dev</name>
+	<replaces></replaces>
+	<version>1.0.3</version>
+	<arch>armel</arch>
+	<description>Portable uuid C library (development files)</description>
+	<depends>libuuid</depends>
+	<size>65909</size>
+	<file>libuuid-dev_1.0.3_armel.zip</file>
+	<filesize>22215</filesize>
+    </package>
+    <package>
+	<name>make</name>
+	<replaces></replaces>
+	<version>4.0</version>
+	<arch>armel</arch>
+	<description>An utility for Directing compilation.</description>
+	<depends></depends>
+	<size>204040</size>
+	<file>make_4.0_armel.zip</file>
+	<filesize>103461</filesize>
+    </package>
+    <package>
+	<name>makerepo</name>
+	<replaces></replaces>
+	<version>1.0</version>
+	<arch>armel</arch>
+	<description>Create local repository from downloaded/backuped packages.</description>
+	<depends>adialog busybox unzip</depends>
+	<size>1664</size>
+	<file>makerepo_1.0_armel.zip</file>
+	<filesize>2156</filesize>
+    </package>
+    <package>
+	<name>mc</name>
+	<replaces></replaces>
+	<version>4.6.2-3</version>
+	<arch>armel</arch>
+	<description>Midnight Commander - a powerful file manager</description>
+	<depends>glib libiconv</depends>
+	<size>2146794</size>
+	<file>mc_4.6.2-3_armel.zip</file>
+	<filesize>599143</filesize>
+    </package>
+    <package>
+	<name>mc-man</name>
+	<replaces></replaces>
+	<version>4.6.2-3</version>
+	<arch>armel</arch>
+	<description>Midnight Commander - a powerful file manager (manual files)</description>
+	<depends>mc</depends>
+	<size>124484</size>
+	<file>mc-man_4.6.2-3_armel.zip</file>
+	<filesize>42951</filesize>
+    </package>
+    <package>
+	<name>mpc</name>
+	<replaces></replaces>
+	<version>1.0.1</version>
+	<arch>armel</arch>
+	<description>C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result</description>
+	<depends>gmp mpfr</depends>
+	<size>70724</size>
+	<file>mpc_1.0.1_armel.zip</file>
+	<filesize>33816</filesize>
+    </package>
+    <package>
+	<name>mpc-dev</name>
+	<replaces></replaces>
+	<version>1.0.1</version>
+	<arch>armel</arch>
+	<description>C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result (development files)</description>
+	<depends>mpc</depends>
+	<size>13852</size>
+	<file>mpc-dev_1.0.1_armel.zip</file>
+	<filesize>4548</filesize>
+    </package>
+    <package>
+	<name>mpc-info</name>
+	<replaces></replaces>
+	<version>1.0.1</version>
+	<arch>armel</arch>
+	<description>C library for the arithmetic of complex numbers with arbitrarily high precision and correct rounding of the result (info files)</description>
+	<depends>mpc</depends>
+	<size>88216</size>
+	<file>mpc-info_1.0.1_armel.zip</file>
+	<filesize>24649</filesize>
+    </package>
+    <package>
+	<name>mpfr</name>
+	<replaces></replaces>
+	<version>3.1.1</version>
+	<arch>armel</arch>
+	<description>C library for multiple-precision floating-point computations with correct rounding</description>
+	<depends>gmp</depends>
+	<size>333028</size>
+	<file>mpfr_3.1.1_armel.zip</file>
+	<filesize>166021</filesize>
+    </package>
+    <package>
+	<name>mpfr-dev</name>
+	<replaces></replaces>
+	<version>3.1.1</version>
+	<arch>armel</arch>
+	<description>C library for multiple-precision floating-point computations with correct rounding (development files)</description>
+	<depends>mpfr</depends>
+	<size>58754</size>
+	<file>mpfr-dev_3.1.1_armel.zip</file>
+	<filesize>13624</filesize>
+    </package>
+    <package>
+	<name>mpfr-doc</name>
+	<replaces></replaces>
+	<version>3.1.1</version>
+	<arch>armel</arch>
+	<description>C library for multiple-precision floating-point computations with correct rounding (doc files)</description>
+	<depends>mpfr</depends>
+	<size>114088</size>
+	<file>mpfr-doc_3.1.1_armel.zip</file>
+	<filesize>46980</filesize>
+    </package>
+    <package>
+	<name>mpfr-info</name>
+	<replaces></replaces>
+	<version>3.1.1</version>
+	<arch>armel</arch>
+	<description>C library for multiple-precision floating-point computations with correct rounding (info files)</description>
+	<depends>mpfr</depends>
+	<size>214485</size>
+	<file>mpfr-info_3.1.1_armel.zip</file>
+	<filesize>52746</filesize>
+    </package>
+    <package>
+	<name>ncurses</name>
+	<replaces></replaces>
+	<version>5.9</version>
+	<arch>armel</arch>
+	<description>Programming library providing an application programming interface (API) that allows the programmer to write text-based user interfaces in a terminal-independent manner</description>
+	<depends></depends>
+	<size>841688</size>
+	<file>ncurses_5.9_armel.zip</file>
+	<filesize>414988</filesize>
+    </package>
+    <package>
+	<name>ncurses-dev</name>
+	<replaces></replaces>
+	<version>5.9</version>
+	<arch>armel</arch>
+	<description>Programming library providing an application programming interface (API) that allows the programmer to write text-based user interfaces in a terminal-independent manner (development files)</description>
+	<depends>ncurses</depends>
+	<size>4369495</size>
+	<file>ncurses-dev_5.9_armel.zip</file>
+	<filesize>1426258</filesize>
+    </package>
+    <package>
+	<name>ncurses-man</name>
+	<replaces></replaces>
+	<version>5.9</version>
+	<arch>armel</arch>
+	<description>Programming library providing an application programming interface (API) that allows the programmer to write text-based user interfaces in a terminal-independent manner (manual files)</description>
+	<depends>ncurses</depends>
+	<size>334862</size>
+	<file>ncurses-man_5.9_armel.zip</file>
+	<filesize>524033</filesize>
+    </package>
+    <package>
+	<name>ndk-misc</name>
+	<replaces></replaces>
+	<version>r12b</version>
+	<arch>armel</arch>
+	<description>NDK misc files</description>
+	<depends></depends>
+	<size>91822</size>
+	<file>ndk-misc_r12b_armel.zip</file>
+	<filesize>30522</filesize>
+    </package>
+    <package>
+	<name>ndk-sysroot-armel-12</name>
+	<replaces></replaces>
+	<version>r12b</version>
+	<arch>all</arch>
+	<description>NDK sysroot libraries and headers for armel.</description>
+	<depends></depends>
+	<size>8122502</size>
+	<file>ndk-sysroot-armel-12_r12b_all.zip</file>
+	<filesize>2405828</filesize>
+    </package>
+    <package>
+	<name>ndk-sysroot-armel-13</name>
+	<replaces></replaces>
+	<version>r12b</version>
+	<arch>all</arch>
+	<description>NDK sysroot libraries and headers for armel.</description>
+	<depends></depends>
+	<size>8148834</size>
+	<file>ndk-sysroot-armel-13_r12b_all.zip</file>
+	<filesize>2412349</filesize>
+    </package>
+    <package>
+	<name>ndk-sysroot-armel-14</name>
+	<replaces></replaces>
+	<version>r12b</version>
+	<arch>all</arch>
+	<description>NDK sysroot libraries and headers for armel.</description>
+	<depends></depends>
+	<size>8282100</size>
+	<file>ndk-sysroot-armel-14_r12b_all.zip</file>
+	<filesize>2436403</filesize>
+    </package>
+    <package>
+	<name>ndk-sysroot-armel-15</name>
+	<replaces></replaces>
+	<version>r12b</version>
+	<arch>all</arch>
+	<description>NDK sysroot libraries and headers for armel.</description>
+	<depends></depends>
+	<size>8282272</size>
+	<file>ndk-sysroot-armel-15_r12b_all.zip</file>
+	<filesize>2436461</filesize>
+    </package>
+    <package>
+	<name>ndk-sysroot-armel-16</name>
+	<replaces></replaces>
+	<version>r12b</version>
+	<arch>all</arch>
+	<description>NDK sysroot libraries and headers for armel.</description>
+	<depends></depends>
+	<size>8282901</size>
+	<file>ndk-sysroot-armel-16_r12b_all.zip</file>
+	<filesize>2436907</filesize>
+    </package>
+    <package>
+	<name>ndk-sysroot-armel-17</name>
+	<replaces></replaces>
+	<version>r12b</version>
+	<arch>all</arch>
+	<description>NDK sysroot libraries and headers for armel.</description>
+	<depends></depends>
+	<size>8292411</size>
+	<file>ndk-sysroot-armel-17_r12b_all.zip</file>
+	<filesize>2437631</filesize>
+    </package>
+    <package>
+	<name>ndk-sysroot-armel-18</name>
+	<replaces></replaces>
+	<version>r12b</version>
+	<arch>all</arch>
+	<description>NDK sysroot libraries and headers for armel.</description>
+	<depends></depends>
+	<size>8409854</size>
+	<file>ndk-sysroot-armel-18_r12b_all.zip</file>
+	<filesize>2458042</filesize>
+    </package>
+    <package>
+	<name>ndk-sysroot-armel-19</name>
+	<replaces></replaces>
+	<version>r12b</version>
+	<arch>all</arch>
+	<description>NDK sysroot libraries and headers for armel.</description>
+	<depends></depends>
+	<size>8411420</size>
+	<file>ndk-sysroot-armel-19_r12b_all.zip</file>
+	<filesize>2458603</filesize>
+    </package>
+    <package>
+	<name>ndk-sysroot-armel-21</name>
+	<replaces></replaces>
+	<version>r12b</version>
+	<arch>all</arch>
+	<description>NDK sysroot libraries and headers for armel.</description>
+	<depends></depends>
+	<size>14931820</size>
+	<file>ndk-sysroot-armel-21_r12b_all.zip</file>
+	<filesize>4292148</filesize>
+    </package>
+    <package>
+	<name>ndk-sysroot-armel-22</name>
+	<replaces></replaces>
+	<version>r12b</version>
+	<arch>all</arch>
+	<description>NDK sysroot libraries and headers for armel.</description>
+	<depends></depends>
+	<size>14931820</size>
+	<file>ndk-sysroot-armel-22_r12b_all.zip</file>
+	<filesize>4292146</filesize>
+    </package>
+    <package>
+	<name>ndk-sysroot-armel-23</name>
+	<replaces></replaces>
+	<version>r12b</version>
+	<arch>all</arch>
+	<description>NDK sysroot libraries and headers for armel.</description>
+	<depends></depends>
+	<size>14954538</size>
+	<file>ndk-sysroot-armel-23_r12b_all.zip</file>
+	<filesize>4297654</filesize>
+    </package>
+    <package>
+	<name>ndk-sysroot-armel-24</name>
+	<replaces></replaces>
+	<version>r12b</version>
+	<arch>all</arch>
+	<description>NDK sysroot libraries and headers for armel.</description>
+	<depends></depends>
+	<size>15930106</size>
+	<file>ndk-sysroot-armel-24_r12b_all.zip</file>
+	<filesize>4468189</filesize>
+    </package>
+    <package>
+	<name>ndk-sysroot-armel-9</name>
+	<replaces></replaces>
+	<version>r12b</version>
+	<arch>all</arch>
+	<description>NDK sysroot libraries and headers for armel.</description>
+	<depends></depends>
+	<size>8121528</size>
+	<file>ndk-sysroot-armel-9_r12b_all.zip</file>
+	<filesize>2405313</filesize>
+    </package>
+    <package>
+	<name>neon</name>
+	<replaces></replaces>
+	<version>0.30.1</version>
+	<arch>armel</arch>
+	<description>neon is an HTTP and WebDAV client library, with a C interface.</description>
+	<depends></depends>
+	<size>1899</size>
+	<file>neon_0.30.1_armel.zip</file>
+	<filesize>2047</filesize>
+    </package>
+    <package>
+	<name>neon-dev</name>
+	<replaces></replaces>
+	<version>0.30.1</version>
+	<arch>armel</arch>
+	<description>neon is an HTTP and WebDAV client library, with a C interface. (development files)</description>
+	<depends>neon</depends>
+	<size>851027</size>
+	<file>neon-dev_0.30.1_armel.zip</file>
+	<filesize>350402</filesize>
+    </package>
+    <package>
+	<name>neon-doc</name>
+	<replaces></replaces>
+	<version>0.30.1</version>
+	<arch>armel</arch>
+	<description>neon is an HTTP and WebDAV client library, with a C interface. (doc files)</description>
+	<depends>neon</depends>
+	<size>259395</size>
+	<file>neon-doc_0.30.1_armel.zip</file>
+	<filesize>92107</filesize>
+    </package>
+    <package>
+	<name>neon-man</name>
+	<replaces></replaces>
+	<version>0.30.1</version>
+	<arch>armel</arch>
+	<description>neon is an HTTP and WebDAV client library, with a C interface. (manual files)</description>
+	<depends>neon</depends>
+	<size>126710</size>
+	<file>neon-man_0.30.1_armel.zip</file>
+	<filesize>71529</filesize>
+    </package>
+    <package>
+	<name>netcat</name>
+	<replaces></replaces>
+	<version>1.10</version>
+	<arch>armel</arch>
+	<description>Netcat is a featured networking utility which reads and writes data across network connections, using the TCP/IP protocol.</description>
+	<depends></depends>
+	<size>71152</size>
+	<file>netcat_1.10_armel.zip</file>
+	<filesize>13857</filesize>
+    </package>
+    <package>
+	<name>openssl</name>
+	<replaces></replaces>
+	<version>1.0.1c-3</version>
+	<arch>armel</arch>
+	<description>The OpenSSL Project is a collaborative effort to develop a robust, commercial-grade, full-featured, and Open Source toolkit implementing the Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well as a full-strength general purpose cryptography library.</description>
+	<depends></depends>
+	<size>2076824</size>
+	<file>openssl_1.0.1c-3_armel.zip</file>
+	<filesize>964430</filesize>
+    </package>
+    <package>
+	<name>openssl-dev</name>
+	<replaces></replaces>
+	<version>1.0.1c-3</version>
+	<arch>armel</arch>
+	<description>The OpenSSL Project is a collaborative effort to develop a robust, commercial-grade, full-featured, and Open Source toolkit implementing the Secure Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well as a full-strength general purpose cryptography library. (development files)</description>
+	<depends>openssl</depends>
+	<size>4870989</size>
+	<file>openssl-dev_1.0.1c-3_armel.zip</file>
+	<filesize>1535722</filesize>
+    </package>
+    <package>
+	<name>pkgman</name>
+	<replaces></replaces>
+	<version>1.0</version>
+	<arch>armel</arch>
+	<description>console package manager</description>
+	<depends></depends>
+	<size>159</size>
+	<file>pkgman_1.0_armel.zip</file>
+	<filesize>919</filesize>
+    </package>
+    <package>
+	<name>ppl</name>
+	<replaces></replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>The Parma Polyhedra Library</description>
+	<depends>gmp libstdc++-compact-dev</depends>
+	<size>3811776</size>
+	<file>ppl_1.1_armel.zip</file>
+	<filesize>1401741</filesize>
+    </package>
+    <package>
+	<name>ppl-dev</name>
+	<replaces></replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>The Parma Polyhedra Library (development files)</description>
+	<depends>ppl</depends>
+	<size>3888428</size>
+	<file>ppl-dev_1.1_armel.zip</file>
+	<filesize>586891</filesize>
+    </package>
+    <package>
+	<name>ppl-doc</name>
+	<replaces></replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>The Parma Polyhedra Library (doc files)</description>
+	<depends>ppl</depends>
+	<size>20506476</size>
+	<file>ppl-doc_1.1_armel.zip</file>
+	<filesize>10146765</filesize>
+    </package>
+    <package>
+	<name>ppl-man</name>
+	<replaces></replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>The Parma Polyhedra Library (manual files)</description>
+	<depends>ppl</depends>
+	<size>27480</size>
+	<file>ppl-man_1.1_armel.zip</file>
+	<filesize>13651</filesize>
+    </package>
+    <package>
+	<name>project-ctl</name>
+	<replaces></replaces>
+	<version>1.0</version>
+	<arch>armel</arch>
+	<description>Control project inside a project directory.</description>
+	<depends>adialog busybox</depends>
+	<size>2164</size>
+	<file>project-ctl_1.0_armel.zip</file>
+	<filesize>1540</filesize>
+    </package>
+    <package>
+	<name>sdk-android-14</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>17835528</size>
+	<file>sdk-android-14_1.02_all.zip</file>
+	<filesize>12723288</filesize>
+    </package>
+    <package>
+	<name>sdk-android-15</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>17235030</size>
+	<file>sdk-android-15_1.02_all.zip</file>
+	<filesize>11974411</filesize>
+    </package>
+    <package>
+	<name>sdk-android-16</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>18441542</size>
+	<file>sdk-android-16_1.02_all.zip</file>
+	<filesize>12888964</filesize>
+    </package>
+    <package>
+	<name>sdk-android-17</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>19149304</size>
+	<file>sdk-android-17_1.02_all.zip</file>
+	<filesize>13155743</filesize>
+    </package>
+    <package>
+	<name>sdk-android-18</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>19418517</size>
+	<file>sdk-android-18_1.02_all.zip</file>
+	<filesize>13255504</filesize>
+    </package>
+    <package>
+	<name>sdk-android-19</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>21901769</size>
+	<file>sdk-android-19_1.02_all.zip</file>
+	<filesize>13807929</filesize>
+    </package>
+    <package>
+	<name>sdk-android-20</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>21375331</size>
+	<file>sdk-android-20_1.02_all.zip</file>
+	<filesize>13740493</filesize>
+    </package>
+    <package>
+	<name>sdk-android-21</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>26627208</size>
+	<file>sdk-android-21_1.02_all.zip</file>
+	<filesize>15244589</filesize>
+    </package>
+    <package>
+	<name>sdk-android-22</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>26806983</size>
+	<file>sdk-android-22_1.02_all.zip</file>
+	<filesize>15269943</filesize>
+    </package>
+    <package>
+	<name>sdk-android-23</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>24729987</size>
+	<file>sdk-android-23_1.02_all.zip</file>
+	<filesize>14622000</filesize>
+    </package>
+    <package>
+	<name>sdk-android-24</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>37938794</size>
+	<file>sdk-android-24_1.02_all.zip</file>
+	<filesize>20244200</filesize>
+    </package>
+    <package>
+	<name>sdk-android-25</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>38298808</size>
+	<file>sdk-android-25_1.02_all.zip</file>
+	<filesize>20311197</filesize>
+    </package>
+    <package>
+	<name>sdk-android-26</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>30569063</size>
+	<file>sdk-android-26_1.02_all.zip</file>
+	<filesize>19638016</filesize>
+    </package>
+    <package>
+	<name>sdk-android-27</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>33649460</size>
+	<file>sdk-android-27_1.02_all.zip</file>
+	<filesize>19885032</filesize>
+    </package>
+    <package>
+	<name>sdk-android-p</name>
+	<replaces></replaces>
+	<version>1.02</version>
+	<arch>all</arch>
+	<description>Android java sdk</description>
+	<depends></depends>
+	<size>36115025</size>
+	<file>sdk-android-P_1.02_all.zip</file>
+	<filesize>20163392</filesize>
+    </package>
+    <package>
+	<name>sdktools</name>
+	<replaces></replaces>
+	<version>1.1</version>
+	<arch>armel</arch>
+	<description>android sdk tools</description>
+	<depends>libstdc++-compact-dev fastjar</depends>
+	<size>1505664</size>
+	<file>sdktools_1.1_armel.zip</file>
+	<filesize>525494</filesize>
+    </package>
+    <package>
+	<name>sdl2</name>
+	<replaces></replaces>
+	<version>2.0.3</version>
+	<arch>armel</arch>
+	<description>Simple DirectMedia Layer</description>
+	<depends></depends>
+	<size>941320</size>
+	<file>sdl2_2.0.3_armel.zip</file>
+	<filesize>326955</filesize>
+    </package>
+    <package>
+	<name>sdl2-dev</name>
+	<replaces></replaces>
+	<version>2.0.3</version>
+	<arch>armel</arch>
+	<description>Simple DirectMedia Layer (development files)</description>
+	<depends>sdl2</depends>
+	<size>8555052</size>
+	<file>sdl2-dev_2.0.3_armel.zip</file>
+	<filesize>2403759</filesize>
+    </package>
+    <package>
+	<name>sqlite</name>
+	<replaces></replaces>
+	<version>3140100</version>
+	<arch>armel</arch>
+	<description>SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.</description>
+	<depends></depends>
+	<size>869172</size>
+	<file>sqlite_3140100_armel.zip</file>
+	<filesize>470627</filesize>
+    </package>
+    <package>
+	<name>sqlite-dev</name>
+	<replaces></replaces>
+	<version>3140100</version>
+	<arch>armel</arch>
+	<description>SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. (development files)</description>
+	<depends>sqlite</depends>
+	<size>5976136</size>
+	<file>sqlite-dev_3140100_armel.zip</file>
+	<filesize>2063955</filesize>
+    </package>
+    <package>
+	<name>sqlite-man</name>
+	<replaces></replaces>
+	<version>3140100</version>
+	<arch>armel</arch>
+	<description>SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine. (manual files)</description>
+	<depends>sqlite</depends>
+	<size>8928</size>
+	<file>sqlite-man_3140100_armel.zip</file>
+	<filesize>4830</filesize>
+    </package>
+    <package>
+	<name>subversion</name>
+	<replaces></replaces>
+	<version>1.9.4</version>
+	<arch>armel</arch>
+	<description>Advanced version control system</description>
+	<depends></depends>
+	<size>5450228</size>
+	<file>subversion_1.9.4_armel.zip</file>
+	<filesize>1908896</filesize>
+    </package>
+    <package>
+	<name>subversion-dev</name>
+	<replaces></replaces>
+	<version>1.9.4</version>
+	<arch>armel</arch>
+	<description>Advanced version control system (development files)</description>
+	<depends>subversion</depends>
+	<size>20607544</size>
+	<file>subversion-dev_1.9.4_armel.zip</file>
+	<filesize>7526124</filesize>
+    </package>
+    <package>
+	<name>subversion-man</name>
+	<replaces></replaces>
+	<version>1.9.4</version>
+	<arch>armel</arch>
+	<description>Advanced version control system (manual files)</description>
+	<depends>subversion</depends>
+	<size>25001</size>
+	<file>subversion-man_1.9.4_armel.zip</file>
+	<filesize>15101</filesize>
+    </package>
+    <package>
+	<name>wget</name>
+	<replaces></replaces>
+	<version>1.18</version>
+	<arch>armel</arch>
+	<description>GNU Wget is a free software package for retrieving files using HTTP, HTTPS and FTP, the most widely-used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, cron jobs, terminals without X-Windows support, etc.</description>
+	<depends>libiconv</depends>
+	<size>1955205</size>
+	<file>wget_1.18_armel.zip</file>
+	<filesize>918377</filesize>
+    </package>
+    <package>
+	<name>wget-info</name>
+	<replaces></replaces>
+	<version>1.18</version>
+	<arch>armel</arch>
+	<description>GNU Wget is a free software package for retrieving files using HTTP, HTTPS and FTP, the most widely-used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, cron jobs, terminals without X-Windows support, etc. (info files)</description>
+	<depends>wget</depends>
+	<size>227483</size>
+	<file>wget-info_1.18_armel.zip</file>
+	<filesize>71592</filesize>
+    </package>
+    <package>
+	<name>wget-man</name>
+	<replaces></replaces>
+	<version>1.18</version>
+	<arch>armel</arch>
+	<description>GNU Wget is a free software package for retrieving files using HTTP, HTTPS and FTP, the most widely-used Internet protocols. It is a non-interactive commandline tool, so it may easily be called from scripts, cron jobs, terminals without X-Windows support, etc. (manual files)</description>
+	<depends>wget</depends>
+	<size>108748</size>
+	<file>wget-man_1.18_armel.zip</file>
+	<filesize>36377</filesize>
+    </package>
+    <package>
+	<name>zip</name>
+	<replaces></replaces>
+	<version>3.0</version>
+	<arch>armel</arch>
+	<description>Archiver for .zip files</description>
+	<depends></depends>
+	<size>485912</size>
+	<file>zip_3.0_armel.zip</file>
+	<filesize>200722</filesize>
+    </package>
+	
+	<package>
+	<name>isl_fix</name>
+	<replaces></replaces>
+	<version>0.11.1</version>
+	<arch>armel</arch>
+	<description>Integer Set Library fix</description>
+	<depends>none</depends>
+	<size>66666</size>
+	<file>isl_fix.zip</file>
+	<filesize>66666</filesize>
+    </package>
+	
+</repo>
